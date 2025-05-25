@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 import {RewardToken} from "./RewardToken.sol";
 import {IERC721} from "../lib/openzeppelin-contracts/contracts/token/ERC721/IERC721.sol";
-pragma solidity 0.8.19;
+pragma solidity ^0.8.18;
 
 contract NFTStaking {
     IERC721 public nftCollection;
